@@ -1,0 +1,57 @@
+.quantity input[type="button"].plus,
+.quantity input[type="button"].minus {
+	display: none;
+}
+.aslq-qty {
+	display: flex;
+	justify-content: center;
+}
+.aslq-qty .quantity input[type="button"].plus,
+.aslq-qty .quantity input[type="button"].minus {
+	display: inline-block;
+}
+.aslq-qty .quantity input[type="number"] {
+	z-index: 1;
+	-moz-appearance: textfield;
+}
+.aslq-qty .quantity input[type="number"]::-webkit-outer-spin-button,
+.aslq-qty .quantity input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+.aslq-qty input[type="button"]:hover {
+	text-decoration: none;
+}
+.aslq-qty .quantity {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.product-buttons-container.hide-add-to-cart .add_to_cart_button {
+	display: none;
+}
+.d-none {
+	display: none !important;
+}
+.woocommerce .products .product {
+	position: relative;
+}
+.product-cart-loading {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: none;
+}
+.product-cart-loading img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+}
+.product-cart-loading.show {
+	display: block;
+}

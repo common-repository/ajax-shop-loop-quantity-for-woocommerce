@@ -1,0 +1,22 @@
+{
+	"name": "apple-mahmood/ajax-shop-loop-qty",
+	"description": "A WordPress plugin to enable ajax quantity field in shop loop items for woocommerce.",
+	"type": "wordpress-plugin",
+	"license": "GPLv2",
+	"authors": [
+		{
+			"name": "Apple Mahmood",
+			"email": "appl4e@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"ASLQ\\": "includes/"
+		},
+		"files": [
+			"includes/functions.php"
+		]
+	}
+}
